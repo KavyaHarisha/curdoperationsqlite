@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kavya.myapplication.MainActivity">
+
+    <EditText
+        android:id="@+id/eidt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"/>
+
+    <EditText
+        android:id="@+id/eidt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age"/>
+
+    <EditText
+        android:id="@+id/eidt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address"/>
+
+    <EditText
+        android:id="@+id/eidt_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="salary"/>
+
+    <Button
+        android:id="@+id/button_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/insert"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
